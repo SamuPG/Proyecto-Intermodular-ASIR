@@ -23,11 +23,11 @@ Actualmente, las entidades del sector neurotecnológico se enfrentan a important
 Diseñar, desplegar y validar una infraestructura de red y sistemas segura, escalable y de alta disponibilidad, adaptada a las necesidades operativas de una empresa del sector de la neurotecnología.
 
 ### Objetivos específicos
-* Interconectar de forma segura las distintas dependencias y departamentos de la organización.
-* Implementar un control de acceso centralizado para la gestión de usuarios y permisos.
-* Desplegar servicios esenciales para el almacenamiento, respaldo y procesamiento de datos.
-* Aplicar medidas de seguridad perimetral e interna para proteger la información biomédica.
-* Asegurar la continuidad del servicio mediante planes de copia de seguridad y alta disponibilidad.
+- Interconectar de forma segura las distintas dependencias y departamentos de la organización.
+- Implementar un control de acceso centralizado para la gestión de usuarios y permisos.
+- Desplegar servicios esenciales para el almacenamiento, respaldo y procesamiento de datos.
+- Aplicar medidas de seguridad perimetral e interna para proteger la información biomédica.
+- Asegurar la continuidad del servicio mediante planes de copia de seguridad y alta disponibilidad.
 
 ## 1.5. Interesados
 
