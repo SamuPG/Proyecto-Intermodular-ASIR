@@ -12,10 +12,10 @@ La neurociencia aplicada y la neurotecnología son sectores en rápido crecimien
 ## 1.3. Problemática o necesidad
 Actualmente, las entidades del sector neurotecnológico se enfrentan a importantes desafíos en su gestión tecnológica diaria:
 
-* **Gestión de datos sensibles:** Manejo de información biomédica y personal que requiere un estricto control de acceso y cumplimiento normativo de privacidad.
-* **Falta de centralización:** Inexistencia de un sistema unificado para la gestión de usuarios, permisos y recursos compartidos.
-* **Riesgo de pérdida de información:** Ausencia de mecanismos automatizados que garanticen la integridad de los datos ante fallos del sistema o incidentes de seguridad.
-* **Disponibilidad limitada:** Necesidad de garantizar que los servicios críticos estén operativos de forma continua para el trabajo del personal investigador.
+- **Gestión de datos sensibles:** Manejo de información biomédica y personal que requiere un estricto control de acceso y cumplimiento normativo de privacidad.
+- **Falta de centralización:** Inexistencia de un sistema unificado para la gestión de usuarios, permisos y recursos compartidos.
+- **Riesgo de pérdida de información:** Ausencia de mecanismos automatizados que garanticen la integridad de los datos ante fallos del sistema o incidentes de seguridad.
+- **Disponibilidad limitada:** Necesidad de garantizar que los servicios críticos estén operativos de forma continua para el trabajo del personal investigador.
 
 * ## 1.4. Objetivos
 
