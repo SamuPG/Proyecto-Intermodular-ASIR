@@ -1,28 +1,30 @@
-name: Publicar documentación MkDocs
+name: Deploy MkDocs
 
 on:
   push:
     branches:
-      - main
+      - main  # O 'master', según la rama principal de tu repositorio
 
 permissions:
-  contents: write
+  contents: write  # Permiso necesario para crear/actualizar la rama gh-pages
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Descargar repositorio
+      - name: Checkout del código
         uses: actions/checkout@v4
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: '3.12'  # Especificar una versión fija evita fallos si cambian '3.x'
 
-      - name: Instalar MkDocs
-        run: pip install mkdocs
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install mkdocs mkdocs-material
 
-      - name: Publicar web
+      - name: Desplegar en GitHub Pages
+        run: mkdocs gh-deploy --force
         run: mkdocs gh-deploy --force
